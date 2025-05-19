@@ -1,3 +1,7 @@
-body {
-    background-color: black;
-}
+git checkout main
+git pull
+git checkout -b fondo-negro
+
+git add base.css
+git commit -m "Set body background to black"
+git push origin fondo-negro
